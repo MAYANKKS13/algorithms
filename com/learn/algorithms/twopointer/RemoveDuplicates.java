@@ -15,14 +15,11 @@ Output: 2
 Explanation: The first two elements after removing the duplicates will be [2, 11].
  */
 
-
 public class RemoveDuplicates {
     public static void main(String[] args) {
         int[] arr = new int[]{2, 3, 3, 3, 6, 9, 9};
         System.out.println(lengthAfterRemovingDuplicates(arr));
-
     }
-
 
     public static int lengthAfterRemovingDuplicates(int[] arr) {
 
@@ -33,9 +30,9 @@ public class RemoveDuplicates {
                 i++;
             }
         }
-        arr[i] = arr[arr.length - 1];
-
         return i + 1;
+    }
+}
 
 
 //        int length=0;
@@ -46,5 +43,3 @@ public class RemoveDuplicates {
 //        }
 //
 //        return (arr.length-length);
-    }
-}
