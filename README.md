@@ -20,3 +20,5 @@
 2. [Remove duplicates](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/RemoveDuplicates.java)
 3. [Square array elements](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/SquareArrayElements.java)
 4. [Triplets sum equals to zero](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/UniqueTripletsSumsToZero.java)
+5. [Triplet sum closest to target](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/TripletSumClosestToTarget.java)
+6. [Dutch National Flag problem](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/DutchNationalFlag.java)
