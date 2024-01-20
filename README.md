@@ -22,3 +22,16 @@
 4. [Triplets sum equals to zero](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/UniqueTripletsSumsToZero.java)
 5. [Triplet sum closest to target](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/TripletSumClosestToTarget.java)
 6. [Dutch National Flag problem](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/DutchNationalFlag.java)
+
+
+### Fast Slow Pointer
+
+1. [Check loop in linked list](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/CheckLoopInLinkedList.java)
+2. [Mid value of linked list](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/MidValueOfLinkedList.java)
+3. [Happy number](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/HappyNumber.java)
+
+
+### Binary Search
+
+1. [Binary search example](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/BinarySearchExample.java)
+2. [Search in a rotated array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/SearchInARotatedArray.java)
