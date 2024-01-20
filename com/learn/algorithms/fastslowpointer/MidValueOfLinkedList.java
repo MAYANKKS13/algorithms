@@ -1,6 +1,5 @@
 package com.learn.algorithms.fastslowpointer;
 
-
 public class MidValueOfLinkedList {
     public static void main(String[] args) {
 
