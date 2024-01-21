@@ -2,14 +2,42 @@ package com.learn.algorithms.binarysearch;
 
 public class SearchInARotatedArray {
     public static void main(String[] args) {
-        int[] arr = new int[]{9,1,2,3,4,5,6,7,8};
-        System.out.println(searchInRotatedArray(arr, 9));
-        int[] arr1 = new int[]{2,4,6,8,10};
-        System.out.println(searchInRotatedArray(arr1, 8));
-        int[] arr2 = new int[]{4,5,6,7,8,1,2,3};
+
+        int[] arr2 = new int[]{4, 5, 6, 7, 8, 1, 2, 3};
         System.out.println(searchInRotatedArray(arr2, 1));
 
+        int[] arr3 = new int[]{7, 8, 5, 3, 3, 3, 3, 5, 7};
+        System.out.println(searchInRotatedArrayDuplicates(arr3, 7));
+        System.out.println(searchInRotatedArrayDuplicates(arr3, 5));
     }
+
+    public static int searchInRotatedArrayDuplicates(int[] arr, int k) {
+        int low = 0, high = arr.length - 1;
+        while (low < high) {
+            int mid = (low + high) / 2;
+            if (arr[mid] == k)
+                while (arr[mid-1]==k && mid>0)
+                    mid--;
+            else if (arr[low] <= arr[mid]) {  // when left array is sorted
+                if (k >= arr[low] && k <= arr[mid - 1])
+                    high = mid - 1;
+                else
+                    low = mid + 1;
+            } else {  //when right array is sorted
+                if (k >= arr[mid + 1] && k <= arr[high])
+                    low = mid + 1;
+                else
+                    high = mid - 1;
+            }
+        }
+
+        if(arr[low]==k)
+            return low;
+        return -1;
+
+    }
+
+
     public static int searchInRotatedArray(int[] arr, int k) {
         int low = 0, high = arr.length - 1;
         while (low < high) {
