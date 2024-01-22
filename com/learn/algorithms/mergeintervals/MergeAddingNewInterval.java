@@ -7,13 +7,18 @@ import java.util.List;
 public class MergeAddingNewInterval {
     public static void main(String[] args) {
 
+        List<Interval> intervalList = new ArrayList<>();
+        intervalList.add(new Interval(1,5));
+        intervalList.add(new Interval(7, 9));
+        Interval interval = new Interval(11,15);
 
+
+        System.out.println(mergeAfterAdding(intervalList,interval));
 
     }
+    public static List<Interval> mergeAfterAdding(List<Interval> intervalList, Interval newInterval) {
 
-    public static List<Interval> mergeAfterAdding(List<Interval> intervalList) {
-
-
+        intervalList.add(newInterval);
         Collections.sort(intervalList, (a, b) -> a.start - b.start);
         List<Interval> result = new ArrayList<>();
         int start = intervalList.get(0).start;
