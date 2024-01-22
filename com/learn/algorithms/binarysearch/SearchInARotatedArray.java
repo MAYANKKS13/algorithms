@@ -16,7 +16,7 @@ public class SearchInARotatedArray {
         while (low < high) {
             int mid = (low + high) / 2;
             if (arr[mid] == k)
-                while (arr[mid-1]==k && mid>0)
+                while (arr[mid - 1] == k)
                     mid--;
             else if (arr[low] <= arr[mid]) {  // when left array is sorted
                 if (k >= arr[low] && k <= arr[mid - 1])
@@ -31,7 +31,7 @@ public class SearchInARotatedArray {
             }
         }
 
-        if(arr[low]==k)
+        if (arr[low] == k)
             return low;
         return -1;
 
