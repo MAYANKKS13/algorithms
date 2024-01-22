@@ -35,3 +35,16 @@
 
 1. [Binary search example](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/BinarySearchExample.java)
 2. [Search in a rotated array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/SearchInARotatedArray.java)
+3. [Minimum difference element](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/MinimumDifferenceElement.java)
+
+### Merge Intervals
+
+1. [Merge intervals](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/mergeintervals/MergeIntervals.java)
+2. [Merge after adding new interval](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/mergeintervals/MergeAddingNewInterval.java)
+
+
+
+
+
+
+
