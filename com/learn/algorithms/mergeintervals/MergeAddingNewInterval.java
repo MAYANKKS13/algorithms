@@ -8,12 +8,15 @@ public class MergeAddingNewInterval {
     public static void main(String[] args) {
 
         List<Interval> intervalList = new ArrayList<>();
-        intervalList.add(new Interval(1,5));
-        intervalList.add(new Interval(7, 9));
-        Interval interval = new Interval(11,15);
+//        intervalList.add(new Interval(1,5));
+//        intervalList.add(new Interval(7, 9));
+//        Interval interval = new Interval(11,15);
 
+        intervalList.add(new Interval(1, 6));
+        intervalList.add(new Interval(8, 10));
+        Interval interval = new Interval(4, 7);
 
-        System.out.println(mergeAfterAdding(intervalList,interval));
+        System.out.println(mergeAfterAdding(intervalList, interval));
 
     }
     public static List<Interval> mergeAfterAdding(List<Interval> intervalList, Interval newInterval) {
@@ -35,8 +38,5 @@ public class MergeAddingNewInterval {
         result.add(new Interval(start, end));
         return result;
     }
-
-
-
 
 }
