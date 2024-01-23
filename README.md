@@ -42,6 +42,13 @@
 1. [Merge intervals](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/mergeintervals/MergeIntervals.java)
 2. [Merge after adding new interval](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/mergeintervals/MergeAddingNewInterval.java)
 
+### Heap
+
+1. [Top k elements](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/heap/TopKElements.java)
+2. [Kth smallest number](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/heap/KthSmallestNumber.java)
+3. [K closest point to the origin](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/heap/KClosestPointToOrigin.java)
+4. [Connect ropes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/heap/ConnectRopes.java)
+   
 
 
 
