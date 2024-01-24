@@ -27,18 +27,18 @@ public class ConnectRopes {
     }
 
     public static int cost(int[] arr) {
-        PriorityQueue<Integer> costq = new PriorityQueue<>();
+        PriorityQueue<Integer> costQueue = new PriorityQueue<>();
         for (int i : arr) {
-            costq.add(i);
+            costQueue.add(i);
         }
         int min_cost = 0;
-        while (!costq.isEmpty()) {
-            if (costq.size() == 1)
+        while (!costQueue.isEmpty()) {
+            if (costQueue.size() == 1)
                 break;
-            int x = costq.poll();
-            int y = costq.poll();
+            int x = costQueue.poll();
+            int y = costQueue.poll();
             min_cost = min_cost + x + y;
-            costq.add(x + y);
+            costQueue.add(x + y);
         }
         return min_cost;
     }
