@@ -1,8 +1,11 @@
 package com.learn.algorithms.tree;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-public class LeftViewOfBST {
+public class RightViewOfBST {
     public static void main(String[] args) {
         BinaryTree root = new BinaryTree(10);
         root.left = new BinaryTree(8);
@@ -14,14 +17,12 @@ public class LeftViewOfBST {
         root.right.right.left = new BinaryTree(18);
         root.right.right.right = new BinaryTree(25);
 
-//        leftViewOfBST(root);
-        System.out.println(leftView(root));
-
+        System.out.println(rightView(root));
     }
 
-    public static List<Integer> leftView(BinaryTree root) {
+    public static List<Integer> rightView(BinaryTree root) {
         Map<Integer, List<BinaryTree>> levelMap = new HashMap<>();
-        leftViewHelper(root, 0, levelMap);
+        rightViewHelper(root, 0, levelMap);
         List<Integer> results = new ArrayList<>();
         for (int i = 0; i < levelMap.size(); i++) {
             results.add(levelMap.get(i).get(0).data);
@@ -29,7 +30,7 @@ public class LeftViewOfBST {
         return results;
     }
 
-    public static void leftViewHelper(BinaryTree root, int level, Map<Integer, List<BinaryTree>> levelMap) {
+    public static void rightViewHelper(BinaryTree root, int level, Map<Integer, List<BinaryTree>> levelMap) {
         if (root == null) {
             return;
         }
@@ -42,8 +43,8 @@ public class LeftViewOfBST {
             binaryTreeList.add(root);
             levelMap.put(level, binaryTreeList);
         }
-        leftViewHelper(root.left, level + 1, levelMap);
-        leftViewHelper(root.right, level + 1, levelMap);
-    }
+        rightViewHelper(root.right, level + 1, levelMap);
+        rightViewHelper(root.left, level + 1, levelMap);
 
+    }
 }

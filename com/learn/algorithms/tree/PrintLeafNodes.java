@@ -16,9 +16,6 @@ public class PrintLeafNodes {
         root.right.right.right = new BinaryTree(25);
 
         printLeafNodes(root);
-        System.out.println();
-        printLeafNodes1(root);
-
     }
 
     public static void printLeafNodes(BinaryTree root) {
@@ -26,23 +23,8 @@ public class PrintLeafNodes {
             return;
         if (root.left == null && root.right == null)
             System.out.print(root.data + " ");
-        printLeafNodes1(root.left);
-        printLeafNodes1(root.right);
+        printLeafNodes(root.left);
+        printLeafNodes(root.right);
 
-    }
-
-    public static void printLeafNodes1(BinaryTree root) {
-        Queue<BinaryTree> bfsQueue = new LinkedList<>();
-        bfsQueue.add(root);
-        while (!bfsQueue.isEmpty()) {
-            BinaryTree temp = bfsQueue.poll();
-            if (temp.left != null)
-                bfsQueue.add(temp.left);
-            if (temp.right != null)
-                bfsQueue.add(temp.right);
-            if (temp.right == null && temp.left == null) {
-                System.out.print(temp.data + " ");
-            }
-        }
     }
 }
