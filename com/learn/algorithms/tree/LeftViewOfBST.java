@@ -29,6 +29,7 @@ public class LeftViewOfBST {
         return results;
     }
 
+
     public static void leftViewHelper(BinaryTree root, int level, Map<Integer, List<BinaryTree>> levelMap) {
         if (root == null) {
             return;
@@ -42,7 +43,8 @@ public class LeftViewOfBST {
             binaryTreeList.add(root);
             levelMap.put(level, binaryTreeList);
         }
-        leftViewHelper(root.left, level + 1, levelMap);
+        leftViewHelper(root.left, level + 1, levelMap); //Calling this function after the next recursive function will give the right view of the BST.
+        //Explanation:- Calling root.right call first will traverse the right subtree first and hence give the first element i.e. right most element of each level first hence giving us the right view.
         leftViewHelper(root.right, level + 1, levelMap);
     }
 
