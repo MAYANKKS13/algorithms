@@ -67,18 +67,16 @@ public class BstTraversalIterative {
             return;
         }
         Stack<BinaryTree> stack = new Stack<>();
-        stack.push(root);
         BinaryTree node = root;
-        while(node != null && stack.size() > 0) {
-            BinaryTree current = stack.pop();
-            while(current != null) {
-                stack.push(current);
-                current = current.left;
+        while(node != null || stack.size() > 0) {
+            while(node != null) {
+                stack.push(node);
+                node = node.left;
             }
+            node=stack.peek();
             System.out.print(stack.pop().data + "  ");
             node = node.right;
         }
-
     }
 
 }
