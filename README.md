@@ -54,12 +54,12 @@
 
 ### Tree
 
-1. [Traversal in BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BinarySearchTreeTraversal.java)
-2. [Breadth First Search in BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BreadthFirstSearchOfBST.java)
-3. [Minimum depth of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/MinimumDepthOfBST.java)
-4. [Print leaf nodes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/PrintLeafNodes.java) 
-5. [Left view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
-6. [Right view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/RightViewOfBST.java)
+1. [Recursive BST traversal](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BinarySearchTreeTraversal.java)
+2. [Iterative BST traversal](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BstTraversalIterative.java) 
+3. [Breadth First Search in BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BreadthFirstSearchOfBST.java)
+4. [Minimum depth of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/MinimumDepthOfBST.java)
+5. [Print leaf nodes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/PrintLeafNodes.java) 
+6. [Left view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
 7. [Top view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
 
 
