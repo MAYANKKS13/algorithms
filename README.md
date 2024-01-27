@@ -61,7 +61,7 @@
 5. [Print leaf nodes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/PrintLeafNodes.java) 
 6. [Left view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
 7. [Top view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
-
+8. [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
 
 
 
