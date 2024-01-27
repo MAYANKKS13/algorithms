@@ -59,8 +59,8 @@
 3. [Breadth First Search in BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BreadthFirstSearchOfBST.java)
 4. [Minimum depth of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/MinimumDepthOfBST.java)
 5. [Print leaf nodes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/PrintLeafNodes.java) 
-6. [Left view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
-7. [Top view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
+6. [Left/Right view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
+7. [Top/Bottom view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
 8. [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
 
 
