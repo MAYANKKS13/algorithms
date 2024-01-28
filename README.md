@@ -63,6 +63,12 @@
 7. [Top/Bottom view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
 8. [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
 
+### Graph
+
+1. [Island Problem](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/IslandsProblem.java)
+2. [Minimum cost](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/MinimumCost.java)
+3. [Shortest path in Binary maze](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/ShortestPathInBinaryMaze.java)
+
 
 
 
