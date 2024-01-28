@@ -39,7 +39,6 @@ public class IslandsProblem {
         }
         int r = matrix.length;
         int c = matrix[0].length;
-        int count = 0;
 
         visited[m][n] = true;
         if (isValid(r, c, m - 1, n) && matrix[m - 1][n] == 1) {

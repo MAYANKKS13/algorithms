@@ -1,5 +1,8 @@
 package com.learn.algorithms.graph;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class ShortestPathInBinaryMaze {
     public static void main(String[] args) {
 
@@ -10,45 +13,62 @@ public class ShortestPathInBinaryMaze {
                 {0, 0, 0, 0, 1, 0, 0, 0, 0, 1},
                 {1, 1, 1, 0, 1, 1, 1, 0, 1, 0},
                 {1, 0, 1, 1, 1, 1, 0, 1, 0, 0},
-                {1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+                {1, 0, 0, 0, 0, 0, 0, 0, 1, 1},
                 {1, 0, 1, 1, 1, 1, 0, 1, 1, 1},
                 {1, 1, 0, 0, 0, 0, 1, 0, 0, 1}
         };
 
-        System.out.println(shortestPathBinaryMaze(matrix, 0, 0, 3, 4));
+        System.out.println(shortestPathBinaryMaze(matrix,0,0,3,4));
+        System.out.println(shortestPathBinaryMaze(matrix, 1, 2,3, 7));
+        System.out.println(shortestPathBinaryMaze(matrix, 0, 0,8, 9));
+
 
     }
 
+    private static int[] dx = {-1, 0, 1, 0, -1, 1, 1, -1};
+    private static int[] dy = {0, -1, 0, 1, -1, -1, 1, 1};
+
     public static int shortestPathBinaryMaze(int[][] matrix, int sourceX, int sourceY, int destX, int destY) {
+
         int r = matrix.length;
         int c = matrix[0].length;
-        int[][] cost = new int[r][c];
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                cost[i][j] = Integer.MAX_VALUE - 1;
-            }
-        }
+        boolean[][] visited = new boolean[r][c];
 
-        for (int i = sourceX; i <= destX; i++) {
-            for (int j = sourceY; j <= destY; j++) {
-                if (i == sourceX && j == sourceY) {
-                    cost[i][j] = 0;
-                } else if (i == sourceX && matrix[sourceX][j] == 1) {
-                    cost[sourceX][j] = cost[sourceX][j - 1] + 1;
-                } else if (j == sourceY && matrix[i][sourceY] == 1) {
-                    cost[i][sourceY] = cost[i - 1][sourceY] + 1;
-                } else if (matrix[i][j] == 1) {
-                    cost[i][j] = 1 + Math.min(cost[i - 1][j], cost[i][j - 1]);
+        visited[sourceX][sourceY] = true;
+
+        Queue<NodePath> queue = new LinkedList<>();
+        queue.add(new NodePath(sourceX, sourceY, 0));
+
+        while (!queue.isEmpty()) {
+            NodePath temp = queue.poll();
+
+            if (temp.x == destX && temp.y == destY) {
+                return temp.distance;
+            }
+
+            for (int i = 0; i < dx.length; i++) {
+                if (isValid(r, c, temp.x + dx[i], temp.y + dy[i]) && matrix[temp.x + dx[i]][temp.y + dy[i]] == 1 && !visited[temp.x + dx[i]][temp.y + dy[i]]) {
+                    visited[temp.x + dx[i]][temp.y + dy[i]] = true;
+                    queue.add(new NodePath(temp.x + dx[i], temp.y + dy[i], temp.distance + 1));
                 }
             }
         }
+        return -1;
+    }
 
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                System.out.print(cost[i][j] + " ");
-            }
-            System.out.println();
-        }
-        return cost[destX][destY];
+    public static boolean isValid(int r, int c, int m, int n) {
+        return m >= 0 && m < r && n >= 0 && n < c;
+    }
+}
+
+class NodePath {
+    int x;
+    int y;
+    int distance;
+
+    public NodePath(int x, int y, int distance) {
+        this.x = x;
+        this.y = y;
+        this.distance = distance;
     }
 }

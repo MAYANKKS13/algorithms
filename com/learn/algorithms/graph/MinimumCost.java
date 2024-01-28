@@ -9,11 +9,8 @@ public class MinimumCost {
                 {0, 1, 0, 0, 1},
                 {0, 1, 1, 1, 1}
         };
-
         System.out.println(minCost(matrix));
-
     }
-
 
     public static int minCost(int[][] matrix) {
         int r = matrix.length;
@@ -24,8 +21,6 @@ public class MinimumCost {
                 cost[i][j] = Integer.MAX_VALUE - 1;
             }
         }
-
-        int minCost = 0;
 
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
