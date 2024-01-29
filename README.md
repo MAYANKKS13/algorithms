@@ -69,6 +69,10 @@
 2. [Minimum cost](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/MinimumCost.java)
 3. [Shortest path in Binary maze](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/ShortestPathInBinaryMaze.java)
 
+### Disjoint Set
+
+1. [DisJoint Set](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/disjointset/DisJointSet.java)
+
 
 
 
