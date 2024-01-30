@@ -17,10 +17,14 @@ public class DiameterOfBinaryTree {
     }
 
     public static int diameter(BinaryTree root) {
-        int lc = 0;
-        int rc = 0;
         if (root == null)
             return 0;
+
+        int lc = 0;
+        int rc = 0;
+        int lh = height(root.left);
+        int rh = height(root.right);
+
         if (root.left != null) {
             lc = diameter(root.left);
         }
@@ -28,7 +32,16 @@ public class DiameterOfBinaryTree {
             rc = diameter(root.right);
         }
 
-        int dia = lc + rc + 1;
+        int dia = lh + rh + 1;
         return Math.max(dia, Math.max(lc, rc));
     }
+
+    public static int height(BinaryTree root) {
+        if (root == null)
+            return 0;
+
+        return (1 + Math.max(height(root.left), height(root.right)));
+    }
 }
+
+
