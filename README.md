@@ -12,6 +12,7 @@
 #### Variable Size
 
 1. [Longest sub array of sum K](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/slidingwindow/variablesize/LongestSubarrayOfSumK.java)
+2. [Longest substring with unique characters](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/slidingwindow/variablesize/LongestSubstringWithUniqueCharacters.java)
 
 
 ### Two Pointer Technique
@@ -37,10 +38,17 @@
 2. [Search in a rotated array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/SearchInARotatedArray.java)
 3. [Minimum difference element](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/MinimumDifferenceElement.java)
 
+
 ### Merge Intervals
 
 1. [Merge intervals](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/mergeintervals/MergeIntervals.java)
 2. [Merge after adding new interval](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/mergeintervals/MergeAddingNewInterval.java)
+
+
+### Linked List
+
+1. [Reverse linked list](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/linkedlist/ReverseLinkedList.java)
+
 
 ### Heap
 
@@ -52,6 +60,7 @@
 6. [Frequency sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/heap/FrequencySort.java)
 7. [K closest number to X](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/heap/KClosestNumberToX.java)
 
+
 ### Tree
 
 1. [Recursive BST traversal](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BinarySearchTreeTraversal.java)
@@ -61,13 +70,16 @@
 5. [Print leaf nodes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/PrintLeafNodes.java) 
 6. [Left/Right view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
 7. [Top/Bottom view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
-8. [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
+8. [Diameter of a binary tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/DiameterOfBinaryTree.java) 
+9 [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
+   
 
 ### Graph
 
 1. [Island Problem](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/IslandsProblem.java)
 2. [Minimum cost](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/MinimumCost.java)
 3. [Shortest path in Binary maze](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/graph/ShortestPathInBinaryMaze.java)
+
 
 ### Disjoint Set
 
