@@ -21,7 +21,7 @@ Explanation: The 3rd smallest number is '11', as the first two small numbers are
 public class KthSmallestNumber {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 1, 5, 12, 2, 11, 8, 4, 9};
-        System.out.println(kthSmallestNumber(arr, 8));
+        System.out.println(kthSmallestNumber(arr, 4));
 
     }
 
