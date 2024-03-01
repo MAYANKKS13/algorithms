@@ -71,7 +71,10 @@
 6. [Left/Right view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LeftViewOfBST.java)
 7. [Top/Bottom view of BST](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/TopViewOfBST.java)
 8. [Diameter of a binary tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/DiameterOfBinaryTree.java) 
-9 [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
+9. [Lowest common ancestor of Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/LowestCommonAncestorOfBinaryTree.java)
+10. [Invert Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/InvertBinaryTree.java)
+11. [Level Order Traversal from down to up](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BFSDownToUp.java)
+12. [Zig Zag Traversal](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/ZigZagTraversal.java)
    
 
 ### Graph
