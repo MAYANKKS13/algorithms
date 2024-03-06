@@ -89,6 +89,12 @@
 1. [DisJoint Set](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/disjointset/DisJointSet.java)
 
 
+### Design
+
+1. [LRU Cache](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/design/LRUCache.java)
+2. [Min Stack](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/design/MinStack.java)
+
+
 
 
 
