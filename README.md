@@ -2,6 +2,14 @@
 
 ## Topic
 
+### Sorting Algorithms
+
+1. [Bubble sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/BubbleSort.java)
+2. [Insertion sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/InsertionSort.java)
+3. [Merge sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/MergeSort.java)
+4. [Quick sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/QuickSort.java)
+5. [Selection sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/SelectionSort.java)
+
 ### Sliding Window Technique
 
 #### Fixed Size
