@@ -1,4 +1,4 @@
-package com.learn.algorithms.Math;
+package com.learn.algorithms.MathandBitwise;
 
 public class NumberOfPower {
     public static void main(String[] args) {

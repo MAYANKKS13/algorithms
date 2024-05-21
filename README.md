@@ -28,7 +28,7 @@
 1. [Pair equals target sum](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/PairEqualsTargetSum.java)
 2. [Remove duplicates](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/RemoveDuplicates.java)
 3. [Square array elements](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/SquareArrayElements.java)
-4. [Triplets sum equals to zero](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/UniqueTripletsSumsToZero.java)
+4. [Unique Triplets sum equals to zero](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/UniqueTripletsSumsToZero.java)
 5. [Triplet sum closest to target](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/TripletSumClosestToTarget.java)
 6. [Dutch National Flag problem](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/twopointer/DutchNationalFlag.java)
 
@@ -45,6 +45,7 @@
 1. [Binary search example](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/BinarySearchExample.java)
 2. [Search in a rotated array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/SearchInARotatedArray.java)
 3. [Minimum difference element](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/MinimumDifferenceElement.java)
+4. [Search in a 2D array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/Searcha2DMatrix.java)
 
 
 ### Merge Intervals
@@ -83,6 +84,14 @@
 10. [Invert Binary Tree](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/InvertBinaryTree.java)
 11. [Level Order Traversal from down to up](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/BFSDownToUp.java)
 12. [Zig Zag Traversal](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/tree/ZigZagTraversal.java)
+
+
+### Math & Bitwise
+
+1. [Number of Power](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/NumberOfPower.java)
+2. [Pow(x,n)](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/PowerofXN.java)
+3. [Subsets](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/Subsets.java)
+4. [Sum of all subsets XOR totals](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/SumofAllSubsetXORTotals.java)
    
 
 ### Graph
