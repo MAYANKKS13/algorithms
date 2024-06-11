@@ -40,6 +40,12 @@
 3. [Happy number](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/HappyNumber.java)
 
 
+### String
+
+1. [Group Anagrams](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/GroupAnagrams.java)
+2. [Palindrome partition of a string](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/PalindromicPartition.java)
+
+
 ### Binary Search
 
 1. [Binary search example](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/binarysearch/BinarySearchExample.java)
@@ -92,6 +98,7 @@
 2. [Pow(x,n)](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/PowerofXN.java)
 3. [Subsets](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/Subsets.java)
 4. [Sum of all subsets XOR totals](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/SumofAllSubsetXORTotals.java)
+5. [Maximum Bitwise OR Subsets](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/MaxBitwiseORSubsets.java)
    
 
 ### Graph
