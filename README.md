@@ -44,6 +44,8 @@
 
 1. [Group Anagrams](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/GroupAnagrams.java)
 2. [Palindrome partition of a string](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/PalindromicPartition.java)
+3. [Ransom Note](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/RansomNote.java)
+4. [Common Characters](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/CommonCharacters.java)
 
 
 ### Binary Search
