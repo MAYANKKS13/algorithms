@@ -9,6 +9,7 @@
 3. [Merge sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/MergeSort.java)
 4. [Quick sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/QuickSort.java)
 5. [Selection sort](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/SelectionSort.java)
+6. [Sorting in nLogn](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/sorting/Sortnlogn.java)
 
 ### Sliding Window Technique
 
@@ -46,6 +47,7 @@
 2. [Palindrome partition of a string](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/PalindromicPartition.java)
 3. [Ransom Note](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/RansomNote.java)
 4. [Common Characters](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/CommonCharacters.java)
+5. [Longest Palindromic Substring](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/strings/LongestPalindromicSubstring.java)
 
 
 ### Binary Search
