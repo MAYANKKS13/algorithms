@@ -46,6 +46,7 @@
 
 1. [Plus One](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/arrays/PlusOne.java)
 2. [Relative Sort Array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/arrays/RelativeSortArray.java)
+3. [Range Sum of Sorted Subarray Sums](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/arrays/RangeSumofSortedSubarraySums.java)
 
 
 ### String
