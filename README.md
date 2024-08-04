@@ -17,6 +17,7 @@
 
 1. [Max sum of sub array of size K](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/slidingwindow/fixedsize/MaxSumOfSubArrayOfSizeK.java)
 2. [Max of all sub array of size K](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/slidingwindow/fixedsize/MaxOfAllSubarrayOfSizeK.java)
+3. [First Negative number of all Subarray of size K](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/slidingwindow/fixedsize/FirstNegativeNumberOfAllSubarrayOfSizeK.java)
 
 #### Variable Size
 
@@ -39,6 +40,12 @@
 1. [Check loop in linked list](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/CheckLoopInLinkedList.java)
 2. [Mid value of linked list](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/MidValueOfLinkedList.java)
 3. [Happy number](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/fastslowpointer/HappyNumber.java)
+
+
+### Arrays
+
+1. [Plus One](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/arrays/PlusOne.java)
+2. [Relative Sort Array](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/arrays/RelativeSortArray.java)
 
 
 ### String
@@ -67,6 +74,7 @@
 ### Linked List
 
 1. [Reverse linked list](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/linkedlist/ReverseLinkedList.java)
+2. [Add two numbers](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/linkedlist/AddTwoNumbers.java)
 
 
 ### Heap
@@ -121,6 +129,12 @@
 
 1. [LRU Cache](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/design/LRUCache.java)
 2. [Min Stack](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/design/MinStack.java)
+3. [Add Both End Delete Constant](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/design/AddBothEndDeleteConstant.java)
+
+
+### Contest
+
+1. [Number of Winning Players](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/contests/NumberofWinningPlayers.java)
 
 
 
