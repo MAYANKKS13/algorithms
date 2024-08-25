@@ -136,6 +136,8 @@
 ### Contest
 
 1. [Number of Winning Players](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/contests/NumberofWinningPlayers.java)
+2. [Final Array State after K Multiplication Operations I](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/contests/ArrayStateafterKOperationsI.java)
+3. [Final Array State after K Multiplication Operations II](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/contests/ArrayStateafterKOperationsII.java)
 
 
 
