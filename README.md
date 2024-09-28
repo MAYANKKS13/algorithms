@@ -113,6 +113,7 @@
 4. [Sum of all subsets XOR totals](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/SumofAllSubsetXORTotals.java)
 5. [Maximum Bitwise OR Subsets](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/MaxBitwiseORSubsets.java)
 6. [Sieve of Eratosthenes](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/SieveofEratosthenes.java)
+7. [Longest Subarray with Maximum Bitwise AND](https://github.com/MAYANKKS13/algorithms/blob/main/com/learn/algorithms/MathandBitwise/LongestSubarrayWithMaxBitwiseAND.java)
    
 
 ### Graph

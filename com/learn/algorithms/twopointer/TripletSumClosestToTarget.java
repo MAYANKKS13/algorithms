@@ -10,28 +10,31 @@ Example: Input: nums = [-1,2,1,-4], target = 1, Output: 2, Explanation: The sum 
 
 public class TripletSumClosestToTarget {
     public static void main(String[] args) {
-        int[] arr = new int[]{-1, 2, 1, -4, 0};
-        Arrays.sort(arr);
+        int[] arr = new int[]{-1, 2, 1, -4};
         System.out.println(sumClosestToTarget(arr, 1));
 
     }
 
     public static int sumClosestToTarget(int[] arr, int target) {
-        int k = arr.length - 1;
-        int min = Integer.MAX_VALUE;
-        for (int i = 0; i < k; i++) {
+        Arrays.sort(arr);
+        int min = arr[0] + arr[1] + arr[arr.length - 1];
+        int k = arr.length;
+        for (int i = 0; i < k-2; i++) {
             int m = i + 1;
-            int t = arr[i] + arr[m] + arr[k];
-            for (int j = i + 1; j < k; j++) {
+            int n = arr.length - 1;
+            while (m < n) {
+                int t = arr[i] + arr[m] + arr[n];
                 if (Math.abs(target - t) < Math.abs(target - min)) {
                     min = t;
                 } else if (t > target) {
-                    k--;
+                    n--;
                 } else if (t < target) {
                     m++;
                 }
+                else {
+                    return t;
+                }
             }
-            k = arr.length - 1;
         }
         return min;
     }
